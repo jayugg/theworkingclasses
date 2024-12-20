@@ -1,0 +1,443 @@
+[
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "miner",
+            "traits": [
+                "miner",
+                "prospector",
+                "myopic",
+                "heavyhanded"
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "clothes-upperbody-great-steppe-shirt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbodyover-clockmaker-tunic"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-workmans-gown"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-worn-leather-boots"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-hand-hunter-gloves"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-blackguard-belt"
+                }
+            ]
+        }
+    },
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "farmer",
+            "traits": [
+                "farmer",
+                "greenthumb",
+                "fleetfooted",
+                "nervous",
+                "nearsighted",
+                "claustrophobic"
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "clothes-head-straw-hat"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbody-commoner-shirt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbodyover-clockmaker-tunic"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-workmans-gown"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-worn-leather-boots"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-hand-heavy-leather-gloves"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-linen-rope"
+                }
+            ]
+        }
+    },
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "lumberjack",
+            "traits": [
+                "lumberjack",
+                "forester",
+                "burner",
+                "kind",
+                "heavyhanded"
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "divisionoflabor:clothes-upperbody-lumberjack-shirt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-commoner-trousers"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-metalcap-boots"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-neck-acorn-amulet"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-hand-hunter-gloves"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-peasant-strap"
+                }
+            ]
+        }
+    },
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "blacksmith",
+            "traits": [
+                "smith",
+                "nearsighted",
+                "heavyhanded",
+                "loud"
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "clothes-shoulder-blacksmith-apron"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbodyover-clockmaker-tunic"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-raw-hide-trousers"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-soldier-boots"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-hand-heavy-leather-gloves"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-sturdy-leather-belt"
+                }
+            ]
+        }
+    },
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "cook",
+            "traits": [
+                "cook",
+                "nearsighted",
+                "nervous"
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "clothes-upperbody-commoner-shirt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbodyover-commoner-coat"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-commoner-trousers"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-commoner-boots"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-hand-commoner-gloves"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbodyover-surgeon"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-peasant-strap"
+                }
+            ]
+        }
+    },
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "alchemist",
+            "traits": [
+                "weak",
+                "nearsighted"
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "clothes-head-alchemist"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-shoulder-alchemist"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbody-alchemist"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbodyover-alchemist"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-alchemist"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-alchemist"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-alchemist"
+                }
+            ]
+        },
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ]
+    },
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "squire",
+            "traits": [
+                "fleetfooted",
+                "forager",
+                "claustrophobic"
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "clothes-head-squire-hood"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-arm-squire-bracers"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-emblem-squire-emblem"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-shoulder-squire-tunic"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbody-squire-shirt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-squire-belt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-squire-pants"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-squire-boots"
+                }
+            ]
+        }
+    },
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "potter",
+            "traits": [
+                "mason"
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "clothes-head-squire-hood"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-arm-squire-bracers"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-emblem-squire-emblem"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-shoulder-squire-tunic"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbody-squire-shirt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-squire-belt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-squire-pants"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-squire-boots"
+                }
+            ]
+        }
+    },
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "carpenter",
+            "traits": [
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "clothes-head-squire-hood"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-arm-squire-bracers"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-emblem-squire-emblem"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-shoulder-squire-tunic"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbody-squire-shirt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-squire-belt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-squire-pants"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-squire-boots"
+                }
+            ]
+        }
+    },
+    {
+        "file": "config/characterclasses.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "healer",
+            "traits": [
+                "fleetfooted",
+                "kind",
+                "claustrophobic"
+            ],
+            "gear": [
+                {
+                    "type": "item",
+                    "code": "clothes-head-squire-hood"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-arm-squire-bracers"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-emblem-squire-emblem"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-shoulder-squire-tunic"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-upperbody-squire-shirt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-waist-squire-belt"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-lowerbody-squire-pants"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-foot-squire-boots"
+                }
+            ]
+        }
+    }
+                
+]

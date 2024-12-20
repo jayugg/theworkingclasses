@@ -1,0 +1,163 @@
+[
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "miner",
+            "type": "positive",
+            "attributes": {
+                "oreDropRate": 0.25,
+                "miningSpeedMul": 0.5
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "prospector",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "myopic",
+            "type": "negative",
+            "attributes": {
+                "rangedWeaponsDamage": -0.2,
+                "rangedWeaponsAcc": -0.3,
+                "bowDrawingStrength": -0.2
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "farmer",
+            "type": "positive",
+            "attributes": {
+                "produceDropRate": 0.3
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "greenthumb",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "resilient",
+            "type": "positive",
+            "attributes": {
+                "maxhealthExtraPoints": 2.5
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "lumberjack",
+            "type": "positive",
+            "attributes": {
+                "woodDropRate": 0.10,
+                "stickDropRate": 0.3
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "forester",
+            "type": "positive",
+            "attributes": {
+                "fruittreeDropRate": 1,
+                "treeseedDropRate": 2
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "carpenter",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "burner",
+            "type": "positive",
+            "attributes": {
+                "charcoalPileDropRate": 0.35
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "mason",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "smith",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "cook",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "loud",
+            "type": "negative",
+            "attributes": {
+                "animalSeekingRange": 0.2
+            }
+        }
+    }
+]

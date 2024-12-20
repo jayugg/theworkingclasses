@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "theworkingclasses",
+    "name": "theworkingclasses",
+    "authors": [
+        "Vivi_IX"
+    ],
+    "description": "To be added",
+    "version": "0.0.1",
+    "dependencies": {
+        "game": ""
+    }
+}
