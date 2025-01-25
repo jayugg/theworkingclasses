@@ -1,0 +1,1137 @@
+[
+	{
+		"ingredientPattern": "H,S",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-*",
+				"quantity": 16,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"chalk",
+					"chert",
+					"conglomerate",
+					"limestone",
+					"claystone",
+					"granite",
+					"sandstone",
+					"shale",
+					"basalt",
+					"peridotite",
+					"phyllite",
+					"slate",
+					"bauxite",
+					"suevite"
+				]
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:stonebrick-{rock}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "SSC,SS_",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-*",
+				"quantity": 2,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"chalk",
+					"chert",
+					"conglomerate",
+					"limestone",
+					"claystone",
+					"granite",
+					"sandstone",
+					"shale",
+					"basalt",
+					"peridotite",
+					"phyllite",
+					"slate",
+					"bauxite",
+					"suevite",
+					"whitemarble",
+					"greenmarble",
+					"redmarble",
+					"kimberlite"
+				]
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestone-{rock}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "SS_,SCS,SSS",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"chalk",
+					"chert",
+					"conglomerate",
+					"limestone",
+					"claystone",
+					"granite",
+					"sandstone",
+					"shale",
+					"basalt",
+					"peridotite",
+					"phyllite",
+					"slate",
+					"bauxite",
+					"suevite",
+					"whitemarble",
+					"greenmarble",
+					"redmarble",
+					"kimberlite"
+				]
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonestairs-{rock}-up-north-free",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "SSS,_C_",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"chalk",
+					"chert",
+					"conglomerate",
+					"limestone",
+					"claystone",
+					"granite",
+					"sandstone",
+					"shale",
+					"basalt",
+					"peridotite",
+					"phyllite",
+					"slate",
+					"bauxite",
+					"suevite",
+					"whitemarble",
+					"greenmarble",
+					"redmarble",
+					"kimberlite"
+				]
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestoneslab-{rock}-down-free",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "ZGX,ABC,NSG",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"Z": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"X": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"chalk",
+					"chert",
+					"conglomerate",
+					"limestone",
+					"claystone",
+					"granite",
+					"sandstone",
+					"shale",
+					"basalt",
+					"peridotite",
+					"phyllite",
+					"slate",
+					"bauxite",
+					"suevite",
+					"whitemarble",
+					"greenmarble",
+					"redmarble",
+					"kimberlite"
+				]
+			},
+			"B": {
+				"type": "item",
+				"code": "game:stone-bauxite",
+				"quantity": 1
+			},
+			"A": {
+				"type": "item",
+				"code": "game:stone-andesite",
+				"quantity": 1
+			},
+			"C": {
+				"type": "item",
+				"code": "game:stone-claystone",
+				"quantity": 1
+			},
+			"N": {
+				"type": "item",
+				"code": "game:stone-conglomerate",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-shale",
+				"quantity": 1
+			},
+			"G": {
+				"type": "item",
+				"code": "game:stone-granite",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-mixed-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"granite",
+					"peridotite",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-andesite",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-andesite-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"basalt",
+					"shale",
+					"slate"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-basalt",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-basalt-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"bauxite",
+					"chert",
+					"claystone",
+					"sandstone"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-bauxite",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-bauxite-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"chalk",
+					"limestone"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-chalk",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-chalk-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"chert",
+					"conglomerate",
+					"claystone",
+					"sandstone",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-chert",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-chert-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"conglomerate",
+					"claystone",
+					"limestone",
+					"sandstone",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-claystone",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-claystone-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"conglomerate",
+					"claystone",
+					"limestone",
+					"sandstone",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-conglomerate",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-conglomerate-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"granite",
+					"peridotite",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-granite",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-granite-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"chalk",
+					"limestone"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-limestone",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-limestone-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"granite",
+					"peridotite",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-peridotite",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-peridotite-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"conglomerate",
+					"claystone",
+					"sandstone",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-phyllite",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-phyllite-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"conglomerate",
+					"claystone",
+					"limestone",
+					"sandstone",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-sandstone",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-sandstone-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"basalt",
+					"shale",
+					"slate"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-shale",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-shale-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"basalt",
+					"shale",
+					"slate"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-slate",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-slate-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"granite",
+					"peridotite",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-kimberlite",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-kimberlite-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"granite",
+					"peridotite",
+					"phyllite"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-suevite",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-suevite-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"chalk",
+					"limestone"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-whitemarble",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-whitemarble-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"chalk",
+					"limestone"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-redmarble",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-redmarble-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,SLG,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 1,
+				"name": "rock",
+				"allowedVariants": [
+					"chalk",
+					"limestone"
+				]
+			},
+			"L": {
+				"type": "item",
+				"code": "game:stone-greenmarble",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-greenmarble-north",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "LLL,LLL,LCL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:stone-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "suevite" ]
+			},
+			"C": {
+				"type": "item",
+				"code": "game:stonebrick-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "suevite" ],
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:drystone-{rock}",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "ABC,DEF,GHI",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stone-bauxite"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:stone-granite"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:stone-limestone"
+			},
+			"D": {
+				"type": "item",
+				"code": "game:stone-conglomerate"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:stone-andesite"
+			},
+			"G": {
+				"type": "item",
+				"code": "game:stone-claystone"
+			},
+			"E": {
+				"type": "item",
+				"code": "game:stone-chalk"
+			},
+			"I": {
+				"type": "item",
+				"code": "game:stone-phyllite"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:stonebrick-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ],
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:drystone-mixed",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "_L_,LLL,LLL",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:stone-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:drystonefence-{rock}-ew-free",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "AHB,CDE,FGI",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stone-bauxite"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:stone-granite"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:stone-limestone"
+			},
+			"D": {
+				"type": "item",
+				"code": "game:stone-conglomerate"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:stone-andesite"
+			},
+			"G": {
+				"type": "item",
+				"code": "game:stone-claystone"
+			},
+			"E": {
+				"type": "item",
+				"code": "game:stone-chalk"
+			},
+			"I": {
+				"type": "item",
+				"code": "game:stone-phyllite"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:drystonefence-mixed-ew-free",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "H_,C_,SS",
+		"requiresTrait": "mason",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "block",
+				"code": "game:rockpolished-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "redmarble", "whitemarble", "greenmarble", "bauxite", "suevite", "kimberlite" ]
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "game:polishedrockslab-{rock}-down-free",
+			"quantity": 6
+		}
+	}
+]

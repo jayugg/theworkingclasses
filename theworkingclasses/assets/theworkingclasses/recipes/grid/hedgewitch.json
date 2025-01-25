@@ -1,0 +1,211 @@
+[
+	{
+		"ingredientPattern": "S,H",
+		"requiresTrait": "hedgewitch",
+		"enabled": true,
+		"shapeless": true,
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:shears-*",
+				"isTool": true
+			},
+			"H": {
+				"type": "block",
+				"code": "game:linen-*",
+				"quantity": 1
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 4,
+		"output": {
+			"type": "item",
+			"code": "game:bandage-clean",
+			"quantity": 6
+		}
+	},
+	{
+		"ingredientPattern": "_L_,SBS",
+		"requiresTrait": "hedgewitch",
+		"ingredients": {
+			"L": {
+				"type": "block",
+				"code": "game:linen-*",
+				"quantity": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "game:powder-sulfur",
+				"quantity": 2
+			},
+			"B": {
+				"type": "block",
+				"code": "game:bowl-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:honeyportion"
+				},
+				"requiresLitres": 0.5
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:poultice-linen-honey-sulfur",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "HL",
+		"requiresTrait": "hedgewitch",
+		"ingredients": {
+			"L": {
+				"type": "block",
+				"code": "game:linen-*",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:flower-horsetail-free",
+				"quantity": 8
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:poultice-linen-horsetail",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "HC",
+		"requiresTrait": "hedgewitch",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:cattailtops",
+				"quantity": 4
+			},
+			"H": {
+				"type": "block",
+				"code": "game:flower-horsetail-free",
+				"quantity": 8
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:poultice-reed-horsetail",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "_C_,SBS",
+		"requiresTrait": "hedgewitch",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:cattailtops",
+				"quantity": 4
+			},
+			"S": {
+				"type": "item",
+				"code": "game:powder-sulfur",
+				"quantity": 2
+			},
+			"B": {
+				"type": "block",
+				"code": "game:bowl-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:honeyportion"
+				},
+				"requiresLitres": 0.5
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:poultice-reed-honey-sulfur",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "HP",
+		"requiresTrait": "hedgewitch",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:papyrustops",
+				"quantity": 4
+			},
+			"H": {
+				"type": "block",
+				"code": "game:flower-horsetail-free",
+				"quantity": 8
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:poultice-reed-horsetail",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "_P_,SBS",
+		"requiresTrait": "hedgewitch",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:papyrustops",
+				"quantity": 4
+			},
+			"S": {
+				"type": "item",
+				"code": "game:powder-sulfur",
+				"quantity": 2
+			},
+			"B": {
+				"type": "block",
+				"code": "game:bowl-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:honeyportion"
+				},
+				"requiresLitres": 0.5
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:poultice-reed-honey-sulfur",
+			"quantity": 12
+		}
+	}
+]

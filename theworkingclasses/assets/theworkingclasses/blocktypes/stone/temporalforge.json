@@ -1,0 +1,44 @@
+{
+	"code": "temporalforge",
+	"class": "BlockForge",
+	"entityClass": "Forge",
+	"shape": {
+		"base": "theworkingclasses:block/stone/forge/temporalforge"
+	},
+	"behaviors": [
+		{"name": "Lockable"},
+		{"name": "HeatSource"}
+	],
+	"entityBehaviors": [
+		{"name": "TemperatureSensitive"}
+	],
+	"attributes": {
+		"reinforcable": true,
+		"mapColorCode": "settlement"
+	},
+	"blockmaterial": "Stone",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"] },
+	"replaceable": 500,
+	"lightAbsorption": 0,
+	"resistance": 3.5,
+	"sounds": {
+		"walk": "walk/stone",
+		"byTool": {
+			"Pickaxe": { "hit": "block/rock-hit-pickaxe", "break": "block/rock-break-pickaxe" }
+		}
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"textures": {
+		"coal": { "base": "theworkingclasses:block/stone/forge/bituminous" },
+		"ember": { "base": "theworkingclasses:block/stone/forge/ember" }
+	},
+	"collisionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.875, "z2": 0.9375 },
+	"selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.875, "z2": 0.9375 },
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldRightReadyAnimation": "heldblockready", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	}
+}

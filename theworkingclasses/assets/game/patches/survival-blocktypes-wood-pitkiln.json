@@ -1,0 +1,116 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/buildMats/fuel/6",
+    "value": {
+      "type": "block",
+      "code": "theworkingclasses:rottenpeat-dry",
+      "quantity": 1,
+      "eleCode": "Coal",
+      "textureCodeReplace": {
+        "from": "coal",
+        "to": "peat"
+      },
+      "burnTimeHours": 16
+    },
+    "file": "game:blocktypes/wood/pitkiln.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/buildMats/fuel/7",
+    "value": {
+      "type": "item",
+      "code": "theworkingclasses:washerygradecoke",
+      "quantity": 1,
+      "eleCode": "Coal",
+      "textureCodeReplace": {
+        "from": "coal",
+        "to": "ore-lignite"
+      },
+      "burnTimeHours": 14
+    },
+    "file": "game:blocktypes/wood/pitkiln.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/buildMats/fuel/8",
+    "value": {
+      "type": "item",
+      "code": "theworkingclasses:crushedwasherygradecoke",
+      "quantity": 1,
+      "eleCode": "Coal",
+      "textureCodeReplace": {
+        "from": "coal",
+        "to": "ore-lignite"
+      },
+      "burnTimeHours": 14
+    },
+    "file": "game:blocktypes/wood/pitkiln.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/modelConfigs/theworkingclasses:rawdecoratedstoragevessel-*",
+    "value": {
+      "shape": {
+        "base": "block/wood/pitkiln/vessel"
+      },
+      "minHitboxY2": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        12.25,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "buildStages": [
+        "Grass1",
+        "Grass2",
+        "Grass3",
+        "Grass4",
+        "Grass5",
+        "Sticklayer1/*",
+        "Sticklayer2/*",
+        "{eleCode}1",
+        "{eleCode}2",
+        "{eleCode}3",
+        "{eleCode}4",
+        "{eleCode}5",
+        "{eleCode}6",
+        "{eleCode}7",
+        "{eleCode}8"
+      ],
+      "buildMatCodes": [
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "grass",
+        "sticks",
+        "sticks",
+        "fuel",
+        "fuel",
+        "fuel",
+        "fuel",
+        "fuel",
+        "fuel",
+        "fuel",
+        "fuel"
+      ]
+    },
+    "file": "game:blocktypes/wood/pitkiln.json",
+    "side": "Server"
+  }
+]

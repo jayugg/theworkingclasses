@@ -1,0 +1,144 @@
+[
+	{
+		"ingredientPattern": "SLL",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-*-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "SLL",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ne-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "PYP,YTY,PYP",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:plank-*"
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:paperlantern-on",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "P",
+		"ingredients": {
+			"P": {
+				"type": "block",
+				"code": "game:paperlantern-on"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:paperlantern-off",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "P",
+		"ingredients": {
+			"P": {
+				"type": "block",
+				"code": "game:paperlantern-off"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:paperlantern-on",
+			"quantity": 1
+		}
+	}
+
+]

@@ -1,0 +1,280 @@
+{
+    "code": "wctraitmanual",
+    "class": "traitacquirer.ItemTraitManual",
+    "maxstacksize": 1,
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.125,
+                    "z2": 1
+                }
+            }
+        }
+    ],
+    "attributesByType": {
+        "*-miner": {
+            "traitdata": {
+                "add": [ "prospector", "mason" ],
+                "remove": [ "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-farmer": {
+            "traitdata": {
+                "add": [ "greenfingered" ],
+                "remove": [ "prospector", "mason", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-lumberjack": {
+            "traitdata": {
+                "add": [ "woodsman" ],
+                "remove": [ "prospector", "mason", "greenfingered", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-blacksmith": {
+            "traitdata": {
+                "add": [ "cokefurnacemaster", "smith" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-cook": {
+            "traitdata": {
+                "add": [ "firestarter", "inventiveinthekitchen" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-alchemist": {
+            "traitdata": {
+                "add": [ "philosopher", "temporallyaware", "carefultouch" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-squire": {
+            "traitdata": {
+                "add": [],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-potter": {
+            "traitdata": {
+                "add": [ "potter", "artisan" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-carpenter": {
+            "traitdata": {
+                "add": [ "carpenter", "millwright" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-healer": {
+            "traitdata": {
+                "add": [ "hedgewitch" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-hunter": {
+            "traitdata": {
+                "add": [ "bowyer" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-tailor": {
+            "traitdata": {
+                "add": [ "clothier", "sailwright" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "merciless", "tinkerer", "technical" ]
+            }
+        },
+        "*-blackguard": {
+            "traitdata": {
+                "add": [ "merciless" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "tinkerer", "technical" ]
+            }
+        },
+        "*-clockmaker": {
+            "traitdata": {
+                "add": [ "tinkerer", "technical" ],
+                "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "carpenter", "millwright", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless" ]
+            }
+        }
+    },
+    "attributes": {
+        "displaycaseable": true,
+        "bookshelveableByType": {
+            "*": true
+        },
+        "shelvable": true,
+        "readable": true,
+        "editable": false,
+        "maxPageCount": 1,
+        "groundStorageTransformByType": {
+            "*": {
+                "translation": {
+                    "x": 0.12,
+                    "y": 0,
+                    "z": -0.04
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 35,
+                    "z": 90
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.05,
+                    "z": 0.5
+                }
+            }
+        }
+    },
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "book" ]
+        },
+        {
+            "code": "class",
+            "states": [ "miner", "farmer", "lumberjack", "blacksmith", "cook", "alchemist", "squire", "potter", "carpenter", "healer", "hunter", "tailor", "blackguard", "clockmaker" ]
+        }
+    ],
+    "shapeByType": {
+        "*": {
+            "base": "game:block/clutter/bookshelves/small-normal"
+        }
+    },
+    "texturesByType": {
+        "*-miner": {
+            "cover": { "base": "game:item/lore/normal-darkgray" }
+        },
+        "*-farmer": {
+            "cover": { "base": "game:item/lore/normal-darkgreen" }
+        },
+        "*-lumberjack": {
+            "cover": { "base": "game:item/lore/normal-brown" }
+        },
+        "*-blacksmith": {
+            "cover": { "base": "game:item/lore/normal-slateblue" }
+        },
+        "*-cook": {
+            "cover": { "base": "game:item/lore/normal-orange" }
+        },
+        "*-alchemist": {
+            "cover": { "base": "game:item/lore/normal-purple" }
+        },
+        "*-squire": {
+            "cover": { "base": "game:item/lore/normal-darkolive" }
+        },
+        "*-potter": {
+            "cover": { "base": "game:item/lore/normal-teal" }
+        },
+        "*-carpenter": {
+            "cover": { "base": "game:item/lore/normal-lightbrown" }
+        },
+        "*-healer": {
+            "cover": { "base": "game:item/lore/normal-purpleorange" }
+        },
+        "*-hunter": {
+            "cover": { "base": "game:item/lore/normal-olive" }
+        },
+        "*-tailor": {
+            "cover": { "base": "game:item/lore/normal-cherryred" }
+        },
+        "*-blackguard": {
+            "cover": { "base": "game:item/lore/normal-darkbeige" }
+        },
+        "*-clockmaker": {
+            "cover": { "base": "game:item/lore/normal-burgundy" }
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "wcmanuals": ["*"]
+    }, 
+    "guiTransformByType": {
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -180,
+                "y": 123,
+                "z": 33
+            },
+        "origin": {
+            "x": 0.48,
+            "y": 0.21,
+            "z": 0.5
+        },
+        "scaleXyz": {
+            "x": -3.23,
+            "y": 3.23,
+            "z": 3.23
+        }
+    }
+}, "fpHandTransformByType": {
+    "*": {
+        "translation": {
+            "x": 0,
+            "y": 0.2,
+            "z": 0
+        },
+        "rotation": {
+            "x": -14,
+            "y": -152,
+            "z": 28
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
+        },
+        "scale": 2.07
+    }
+}, "tpHandTransformByType": {
+    "*": {
+        "translation": {
+            "x": -0.79,
+            "y": -0.36,
+            "z": -0.73
+        },
+        "rotation": {
+            "x": 0,
+            "y": -84,
+            "z": 7
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
+        },
+        "scale": 0.67
+    }
+}, "groundTransformByType": {
+    "*": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 90
+        },
+        "origin": {
+            "x": 0.41,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 3.4
+    }
+} }

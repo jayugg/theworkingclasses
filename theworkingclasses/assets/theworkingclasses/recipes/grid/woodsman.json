@@ -1,0 +1,89 @@
+[
+	{
+		"ingredientPattern": "AWS",
+		"requiresTrait": "woodsman",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"W": {
+				"type": "block",
+				"code": "game:log-*"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-*"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 4,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:firewood",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "AW",
+		"requiresTrait": "woodsman",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"W": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "AA",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:papyrustops"
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:paper-parchment",
+			"quantity": 6
+		}
+	},
+	{
+		"ingredientPattern": "AA",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:cattailtops"
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:paper-parchment",
+			"quantity": 4
+		}
+	}
+]

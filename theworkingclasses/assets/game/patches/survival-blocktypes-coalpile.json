@@ -1,0 +1,14 @@
+[
+    {
+        "op": "add",
+        "path": "/textures/washerygradecoke",
+        "value": { "base": "block/coal/lignite" },
+        "file": "blocktypes/coalpile.json"
+    },
+    {
+        "op": "add",
+        "path": "/textures/crushedwasherygradecoke",
+        "value": { "base": "block/coal/lignite" },
+        "file": "blocktypes/coalpile.json"
+    }
+]

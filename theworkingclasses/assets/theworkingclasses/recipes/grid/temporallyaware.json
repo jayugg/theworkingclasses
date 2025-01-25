@@ -1,0 +1,75 @@
+[
+	{
+		"ingredientPattern": "QSQ,RIR",
+		"requiresTrait": "temporallyaware",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "theworkingclasses:philosophersstone-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz"
+			},
+			"I": {
+				"type": "item",
+				"code": "game:gear-rusty"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:metalbit-cupronickel"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "item",
+			"code": "game:gear-temporal"
+		}
+	},
+	{
+		"ingredientPattern": "_S_,RIR,_B_",
+		"requiresTrait": "temporallyaware",
+		"ingredients": {
+			"B": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"S": {
+				"type": "item",
+				"code": "theworkingclasses:philosophersstone-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ore-quartz",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:powder-charcoal",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:waterportion"
+				},
+				"requiresLitres": 10,
+				"consumeContainer": false
+			}
+		},
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:clearquartz"
+		}
+	}
+]

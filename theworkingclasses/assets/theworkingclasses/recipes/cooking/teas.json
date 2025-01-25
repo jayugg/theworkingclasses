@@ -1,0 +1,78 @@
+{
+	"code": "tea",
+	"perishableProps": {
+		"freshHours": { avg: 144 },
+		"transitionHours": { avg: 36 },
+		"transitionRatio": 1,
+		"transitionedStack": { type: "item", code: "rot" }
+	},
+	"shape": { "base": "game:block/food/meal/soup" },
+	"ingredients": [
+		{
+			"code": "game:water",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:waterportion",
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1
+		},
+		{
+			"code": "vegetable-base-1",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:mushroom-*",
+					"shapeElement": "game:bowl/vegetable base 1/*"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1
+		},
+		{
+			"code": "vegetable-base-2",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:mushroom-*",
+					"shapeElement": "game:bowl/vegetable base 2/*"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1
+		},
+		{
+			"code": "vegetable-extra",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:mushroom-*",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				}
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1
+		},
+		{
+			"code": "topping",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:honeyportion",
+					"shapeElement": "game:bowl/topping/*",
+					"cookedStack": {
+						"type": "item",
+						"code": "game:jamhoneyportion"
+					}
+				}
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.2
+		}
+	]
+}

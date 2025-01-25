@@ -53,9 +53,39 @@
   <Content Include="assets\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
+  <Compile Remove="assets\theworkingclasses\shapes\entity\blocks\**" />
+  <Content Remove="assets\theworkingclasses\shapes\entity\blocks\**" />
+  <EmbeddedResource Remove="assets\theworkingclasses\shapes\entity\blocks\**" />
+  <None Remove="assets\theworkingclasses\shapes\entity\blocks\**" />
   <Content Include="modinfo.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
 </ItemGroup>
+
+<ItemGroup>
+  <Content Update="assets\theworkingclasses\recipes\grid\firestarter.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+  <Content Update="assets\theworkingclasses\recipes\grid\sealing_crocks.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+</ItemGroup>
+
+<ItemGroup>
+  <Folder Include="assets\theworkingclasses\patches\items\" />
+  <Folder Include="assets\theworkingclasses\recipes\cooking\" />
+  <Folder Include="assets\theworkingclasses\shapes\block\clay\flowerpot\" />
+  <Folder Include="assets\theworkingclasses\shapes\block\clay\storagevessel\" />
+  <Folder Include="assets\theworkingclasses\shapes\block\clay\planter\" />
+  <Folder Include="assets\theworkingclasses\textures\block\clay\flowerpot\" />
+  <Folder Include="assets\theworkingclasses\textures\block\clay\planter\" />
+  <Folder Include="assets\theworkingclasses\textures\block\clay\vessel\inside\" />
+  <Folder Include="assets\theworkingclasses\textures\block\clay\vessel\top\" />
+  <Folder Include="assets\theworkingclasses\textures\block\soil\peatpile\" />
+  <Folder Include="assets\theworkingclasses\textures\block\wood\planks\aged\" />
+  <Folder Include="assets\theworkingclasses\textures\item\" />
+</ItemGroup>
+
+<ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>

@@ -1,0 +1,26 @@
+[
+	{
+		"ingredientPattern": "__S,_SL,SLL",
+		"requiresTrait": "sailwright",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 1
+			},
+			"L": {
+				"type": "block",
+				"code": "game:linen-*",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:sail",
+			"quantity": 4
+		}
+	}
+]

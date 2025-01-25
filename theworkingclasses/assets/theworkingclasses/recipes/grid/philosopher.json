@@ -1,0 +1,135 @@
+[
+	{
+		"ingredientPattern": "IBS,BQB,LTL",
+		"requiresTrait": "philosopher",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-brass"
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz",
+				"quantity": 4
+			},
+			"T": {
+				"type": "item",
+				"code": "game:gear-temporal"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:rod-blackbronze",
+				"quantity": 2
+			},
+			"I": {
+				"type": "item",
+				"code": "game:solderingiron",
+				"isTool": true,
+				"toolDurabilityCost": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:solderbar-silver",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "theworkingclasses:philosophersstone-east",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "QSB,TIT",
+		"requiresTrait": "philosopher",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "theworkingclasses:philosophersstone-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-brass"
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz"
+			},
+			"T": {
+				"type": "item",
+				"code": "game:gear-temporal"
+			},
+			"I": {
+				"type": "item",
+				"code": "game:metalbit-lead"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "item",
+			"code": "game:metalbit-gold"
+		}
+	},
+	{
+		"ingredientPattern": "_S_,RIR",
+		"requiresTrait": "philosopher",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "theworkingclasses:philosophersstone-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ore-quartz",
+				"quantity": 1
+			},
+			"R": {
+				"type": "item",
+				"code": "game:stone-granite"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:smokyquartz"
+		}
+	},
+	{
+			"ingredientPattern": "_S_,RIR",
+			"requiresTrait": "philosopher",
+			"ingredients": {
+				"S": {
+					"type": "item",
+					"code": "theworkingclasses:philosophersstone-*",
+					"isTool": true,
+					"toolDurabilityCost": 0
+				},
+				"I": {
+					"type": "item",
+					"code": "game:ore-quartz",
+					"quantity": 1
+				},
+				"R": {
+					"type": "item",
+					"code": "game:stone-chert"
+				}
+			},
+			"width": 3,
+			"height": 2,
+			"recipeGroup": 2,
+			"output": {
+				"type": "item",
+				"code": "game:rosequartz"
+			}
+	}
+
+]

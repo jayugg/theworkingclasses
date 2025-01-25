@@ -1,0 +1,213 @@
+[
+
+    {
+        "ingredientPattern": "H_,PP,PP",
+        "requiresTrait": "fitter",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "allowedVariants": [
+                    "aged",
+                    "birch",
+                    "oak",
+                    "maple",
+                    "pine",
+                    "acacia",
+                    "kapok",
+                    "redwood",
+                    "larch",
+                    "baldcypress",
+                    "walnut",
+                    "ebony",
+                    "purpleheart"
+                ],
+                "name": "wood"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "recipeGroup": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "theworkingclasses:alignedplanks-{wood}-ud"
+        }
+    },
+    {
+        "ingredientPattern": "_S,PP,PP",
+        "requiresTrait": "fitter",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "allowedVariants": [
+                    "aged",
+                    "birch",
+                    "oak",
+                    "maple",
+                    "pine",
+                    "acacia",
+                    "kapok",
+                    "redwood",
+                    "larch",
+                    "baldcypress",
+                    "walnut",
+                    "ebony",
+                    "purpleheart"
+                ],
+                "name": "wood"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "recipeGroup": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "theworkingclasses:thinplanks-{wood}-ud"
+        }
+
+    },
+    {
+        "ingredientPattern": "HS,PP,PP",
+        "requiresTrait": "fitter",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "allowedVariants": [
+                    "aged",
+                    "birch",
+                    "oak",
+                    "maple",
+                    "pine",
+                    "acacia",
+                    "kapok",
+                    "redwood",
+                    "larch",
+                    "baldcypress",
+                    "walnut",
+                    "ebony",
+                    "purpleheart"
+                ],
+                "name": "wood"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "recipeGroup": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "theworkingclasses:thinalignedplanks-{wood}-ud"
+        }
+
+    },
+    {
+        "ingredientPattern": "H__,_PP,PP_",
+        "requiresTrait": "fitter",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "allowedVariants": [
+                    "aged",
+                    "birch",
+                    "oak",
+                    "maple",
+                    "pine",
+                    "acacia",
+                    "kapok",
+                    "redwood",
+                    "larch",
+                    "baldcypress",
+                    "walnut",
+                    "ebony",
+                    "purpleheart"
+                ],
+                "name": "wood"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "recipeGroup": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "theworkingclasses:herringboneplanks-{wood}-ud"
+        }
+    },
+    {
+        "ingredientPattern": "HS_,_PP,PP_",
+        "requiresTrait": "fitter",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "allowedVariants": [
+                    "aged",
+                    "birch",
+                    "oak",
+                    "maple",
+                    "pine",
+                    "acacia",
+                    "kapok",
+                    "redwood",
+                    "larch",
+                    "baldcypress",
+                    "walnut",
+                    "ebony",
+                    "purpleheart"
+                ],
+                "name": "wood"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "recipeGroup": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "theworkingclasses:thinherringboneplanks-{wood}-ud"
+        }
+
+    }
+
+
+]

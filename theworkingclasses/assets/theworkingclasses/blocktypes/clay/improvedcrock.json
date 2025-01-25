@@ -1,0 +1,146 @@
+{
+	"code": "improvedcrock",
+	"behaviorsByType": {
+		"*": [
+			{
+				"name": "GroundStorable",
+				"properties": {
+					"layout": "Quadrants",
+					"placeRemoveSound": "game:sounds/player/build",
+					"collisionBox": {
+						"x1": 0,
+						"y1": 0,
+						"z1": 0,
+						"x2": 1,
+						"y2": 0.3125,
+						"z2": 1
+					}
+				}
+			},
+			{ "name": "Unplaceable" },
+			{ "name": "RightClickPickup" }
+		]
+	},
+	"heldTpIdleAnimation": "holdbothhands",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"classByType": {
+		"improvedcrock-*": "BlockCrock"
+	},
+	"entityClassByType": {
+		"improvedcrock-*": "Crock"
+	},
+	"variantgroups": [
+		{
+			"code": "side",
+			"loadFromProperties": "abstract/horizontalorientation"
+		}
+	],
+	"attributesByType": {
+		"improvedcrock-*": {
+			"shelvable": true,
+			"mealContainer": true,
+			"mealBlockCode": "theworkingclasses:improvedcrock-{side}",
+			"servingCapacity": 6,
+			"bowlContents": null,
+			"handleLiquidContainerInteract": true,
+			"handleCookingContainerInteract": true,
+			"emptiedBlockCode": "theworkingclasses:improvedcrock-{side}"
+		}
+	},
+	"shapeByType": {
+		"*-north": {
+			"base": "theworkingclasses:block/clay/crock/base",
+			"rotateY": 0
+		},
+		"*-east": {
+			"base": "theworkingclasses:block/clay/crock/base",
+			"rotateY": 270
+		},
+		"*-west": {
+			"base": "theworkingclasses:block/clay/crock/base",
+			"rotateY": 90
+		},
+		"*-south": {
+			"base": "theworkingclasses:block/clay/crock/base",
+			"rotateY": 180
+		}
+	},
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": {
+		"general": [ "improvedcrock-east" ],
+		"decorative": [ "improvedcrock-east" ]
+	},
+	"replaceable": 400,
+	"resistance": 1.5,
+	"maxStackSizeByType": {
+		"*": 1
+	},
+	"lightAbsorption": 0,
+	"texturesByType": {
+		"*": {
+			"ceramic": {
+				"base": "theworkingclasses:block/clay/burnt/improvedceramic"
+			},
+			"label": { "base": "game:block/clay/crock/label" }
+		}
+	},
+	"sounds": {
+		"walk": "game:walk/stone"
+	},
+	"lightHsv": [ 34, 7, 7 ],
+	"sideopaque": { "all": false },
+	"sidesolid": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": {
+		"x1": 0.25,
+		"y1": 0,
+		"z1": 0.25,
+		"x2": 0.75,
+		"y2": 0.3125,
+		"z2": 0.75
+	},
+	"selectionbox": {
+		"x1": 0.25,
+		"y1": 0,
+		"z1": 0.25,
+		"x2": 0.75,
+		"y2": 0.3125,
+		"z2": 0.75
+	},
+	"guiTransform": {
+		"rotation": {
+			"x": -22.6,
+			"y": -125,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.18,
+			"z": 0.5
+		},
+		"scale": 3.09
+	},
+	"groundTransform": { "scale": 3 },
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.56,
+			"y": -0.03,
+			"z": -0.52
+		},
+		"rotation": {
+			"x": -139,
+			"y": -21,
+			"z": -118
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.01,
+			"z": 0.5
+		},
+		"scale": 0.81
+	}
+
+
+
+}

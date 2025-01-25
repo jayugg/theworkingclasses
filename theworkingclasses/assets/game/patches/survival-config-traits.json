@@ -17,9 +17,54 @@
         "op": "add",
         "path": "/-",
         "value": {
+            "code": "digger",
+            "type": "positive",
+            "attributes": {
+                "miningSpeedMul": 0.3
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "wallbuilder",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "stonecunning",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
             "code": "prospector",
             "type": "positive",
             "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "tough",
+            "type": "positive",
+            "attributes": {
+                "maxhealthExtraPoints": 2,
+                "meleeWeaponsDamage": 0.15
+            }
         }
     },
     {
@@ -53,7 +98,20 @@
         "op": "add",
         "path": "/-",
         "value": {
-            "code": "greenthumb",
+            "code": "strongshoulders",
+            "type": "positive",
+            "attributes": {
+                "rangedWeaponsDamage": 0.2,
+                "bowDrawingStrength": 0.2
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "greenfingered",
             "type": "positive",
             "attributes": {}
         }
@@ -66,8 +124,43 @@
             "code": "resilient",
             "type": "positive",
             "attributes": {
-                "maxhealthExtraPoints": 2.5
+                "maxhealthExtraPoints": 3
             }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "healthy",
+            "type": "positive",
+            "attributes": {
+                "maxhealthExtraPoints": 2
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "versatile",
+            "type": "positive",
+            "attributes": {
+                "meleeWeaponsDamage": 0.15,
+                "rangedWeaponsDamage": 0.2
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "hedgewitch",
+            "type": "positive",
+            "attributes": {}
         }
     },
     {
@@ -79,8 +172,19 @@
             "type": "positive",
             "attributes": {
                 "woodDropRate": 0.10,
-                "stickDropRate": 0.3
+                "stickDropRate": 0.3,
+                "meleeWeaponsDamage": 0.15
             }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "woodsman",
+            "type": "positive",
+            "attributes": {}
         }
     },
     {
@@ -102,6 +206,36 @@
         "path": "/-",
         "value": {
             "code": "carpenter",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "fitter",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "millwright",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "sailwright",
             "type": "positive",
             "attributes": {}
         }
@@ -133,6 +267,26 @@
         "op": "add",
         "path": "/-",
         "value": {
+            "code": "potter",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "artisan",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
             "code": "smith",
             "type": "positive",
             "attributes": {}
@@ -143,9 +297,130 @@
         "op": "add",
         "path": "/-",
         "value": {
-            "code": "cook",
+            "code": "cokefurnacemaster",
             "type": "positive",
             "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "strongarms",
+            "type": "positive",
+            "attributes": {
+                "meleeWeaponsDamage": 0.15
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "carefultouch",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "philosopher",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "temporallyaware",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "knifeexpert",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "firestarter",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "practicedbutcher",
+            "type": "positive",
+            "attributes": {
+                "animalSeekingRange": -0.2,
+                "meleeWeaponsDamage": 0.15
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "inventiveinthekitchen",
+            "type": "positive",
+            "attributes": {}
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "animalfriend",
+            "type": "positive",
+            "attributes": {
+                "animalSeekingRange": -0.2
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "refinedtaste",
+            "type": "negative",
+            "attributes": {
+                "hungerrate": 0.1
+            }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "hungry",
+            "type": "negative",
+            "attributes": {
+                "hungerrate": 0.1
+            }
         }
     },
     {
@@ -158,6 +433,16 @@
             "attributes": {
                 "animalSeekingRange": 0.2
             }
+        }
+    },
+    {
+        "file": "config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "professor",
+            "type": "positive",
+            "attributes": {}
         }
     }
 ]

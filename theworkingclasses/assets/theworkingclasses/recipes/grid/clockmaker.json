@@ -1,0 +1,258 @@
+[
+	{
+		"ingredientPattern": "_H,SR",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "item",
+				"code": "game:shears-*",
+				"isTool": true
+			},
+			"R": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:metal-parts",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,T",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			},
+			"T": {
+				"type": "item",
+				"code": "game:stick"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:scrapweaponkit",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C_C,_I_",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:metalplate-copper"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:ingot-copper"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:hopper"
+		}
+	},
+	{
+		"ingredientPattern": "XS,CH",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "item",
+				"code": "game:shears-*",
+				"isTool": true
+			},
+			"X": {
+				"type": "item",
+				"code": "game:metalplate-*"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chutesection-*"
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:archimedesscrew-straight",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "XH,CS",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "item",
+				"code": "game:shears-*",
+				"isTool": true
+			},
+			"X": {
+				"type": "item",
+				"code": "game:metalplate-*"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chutesection-*"
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:archimedesscrew-ported-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "IH,_I",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"I": {
+				"type": "item",
+				"code": "game:chutesection-copper"
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:chute-elbow-down-east",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "IHI",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"I": {
+				"type": "item",
+				"code": "game:chutesection-copper"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:chute-straight-ns",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_I_,IHI,_I_",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"I": {
+				"type": "item",
+				"code": "game:chutesection-copper"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:chute-cross-ground",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_I_,IHI",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"I": {
+				"type": "item",
+				"code": "game:chutesection-copper"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:chute-t-ns",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "HI_,II_",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"I": {
+				"type": "item",
+				"code": "game:chutesection-copper"
+			},
+			"X": {
+				"type": "item",
+				"code": "game:chutesection-copper",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:chute-3way-down-east",
+			"quantity": 2
+		}
+	}
+]

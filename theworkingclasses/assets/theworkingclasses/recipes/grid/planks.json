@@ -1,0 +1,198 @@
+[
+	{
+		"ingredientPattern": "S,P",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "thinplanks-*-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 4,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "S,P",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "thinalignedplanks-*-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 4,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "S,P",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "thinalignedplanks-*-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 4,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "S,P",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "alignedplanks-*-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 4,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "S,P",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "thinherringboneplanks-*-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 4,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 4
+		}
+	}
+
+]

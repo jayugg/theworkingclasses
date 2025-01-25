@@ -1,0 +1,269 @@
+[
+	{
+		"ingredientPattern": "HC_,RSF",
+		"requiresTrait": "millwright",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 55
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 35
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-placed-*-ud",
+				"quantity": 2
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:windmillrotor-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "HC_,RSF",
+		"requiresTrait": "millwright",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 55
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 35
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud",
+				"quantity": 2
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:windmillrotor-north",
+			"quantity": 2
+		}
+	},
+
+
+
+	{
+		"ingredientPattern": "H_,SF",
+		"requiresTrait": "millwright",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-placed-*-ud",
+				"name": "wood"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:woodenaxle-ud",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "H_,SF",
+		"requiresTrait": "millwright",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud",
+				"name": "wood"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:woodenaxle-ud",
+			"quantity": 4
+		}
+	},
+
+	{
+		"ingredientPattern": "HCX,PRS,A_A",
+		"requiresTrait": "millwright",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 5
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 10
+			},
+			"X": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true,
+				"toolDurabilityCost": 30
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"name": "wood",
+				"quantity": 2
+			},
+			"A": {
+				"type": "item",
+				"code": "game:plank-*",
+				"name": "wood",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 8
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:largegearsection-wood",
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "H_P,CP_,PR_",
+		"requiresTrait": "millwright",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 25
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 7
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"name": "wood",
+				"quantity": 2
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:helvehammerbase-north",
+			"quantity": 3
+		}
+	},
+
+	{
+		"ingredientPattern": "PLP,PSP,PRP",
+		"requiresTrait": "millwright",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true,
+				"toolDurabilityCost": 40
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 4
+			},
+			"L": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 3
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "granite", "basalt", "peridotite" ]
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:pulverizerframe-north",
+			"quantity": 1
+		}
+	}
+]

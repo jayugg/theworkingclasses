@@ -1,0 +1,172 @@
+[
+
+    {
+        "op": "replace",
+        "path": "/4/traits",
+        "value": [ "soldier", "hardy", "merciless", "ravenous", "nearsighted", "oneHandedSwordsProficiency", "twoHandedSwordsProficiency", "tremblingAim", "clumsyHands" ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/5/traits",
+        "value": [ "clothier", "mender", "sailwright", "civil", "weak", "tremblingAim" ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/6/traits",
+        "value": [
+            "miner",
+            "prospector",
+            "mason",
+            "tough",
+            "myopic",
+            "heavyhanded",
+            "macesProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/7/traits",
+        "value": [
+            "farmer",
+            "greenfingered",
+            "animalfriend",
+            "strongshoulders",
+            "nervous",
+            "claustrophobic",
+            "bowsProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/8/traits",
+        "value": [
+            "lumberjack",
+            "forester",
+            "burner",
+            "woodsman",
+            "kind",
+            "heavyhanded",
+            "axesProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/9/traits",
+        "value": [
+            "smith",
+            "cokefurnacemaster",
+            "mender",
+            "strongarms",
+            "nearsighted",
+            "heavyhanded",
+            "macesProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/10/traits",
+        "value": [
+            "knifeexpert",
+            "firestarter",
+            "practicedbutcher",
+            "inventiveinthekitchen",
+            "refinedtaste",
+            "nearsighted",
+            "oneHandedSwordsProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/11/traits",
+        "value": [
+            "forager",
+            "carefultouch",
+            "philosopher",
+            "temporallyaware",
+            "weak",
+            "nearsighted",
+            "quarterstaffProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/12/traits",
+        "value": [
+            "fleetfooted",
+            "healthy",
+            "forager",
+            "versatile",
+            "hungry",
+            "claustrophobic",
+            "oneHandedSwordsProficiency",
+            "twoHandedSwordsProficiency",
+            "crossbowsProficiency",
+            "firearmsProficiency",
+            "spearsProficiency",
+            "halberdsProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/13/traits",
+        "value": [
+            "potter",
+            "digger",
+            "artisan",
+            "strongarms",
+            "civil",
+            "kind",
+            "macesProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/14/traits",
+        "value": [
+            "carpenter",
+            "fitter",
+            "millwright",
+            "strongarms",
+            "civil",
+            "hungry",
+            "axesProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/15/traits",
+        "value": [
+            "healthy",
+            "fleetfooted",
+            "forager",
+            "hedgewitch",
+            "kind",
+            "claustrophobic",
+            "quarterstaffProficiency"
+        ],
+        "file": "game:config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    }
+]

@@ -1,0 +1,364 @@
+[
+	{
+		"ingredientPattern": "HS,CF,_R",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 40
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-placed-*-ud"
+			},
+			"F": {
+				"type": "block",
+				"code": "game:woodenaxle-ud"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:brake-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "HS,CF,_R",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 40
+			},
+			"S": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud"
+			},
+			"F": {
+				"type": "block",
+				"code": "game:woodenaxle-ud"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:brake-north",
+			"quantity": 2
+		}
+	},
+
+	{
+		"ingredientPattern": "HCR,PA_,_F_",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 30
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 10
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"name": "wood",
+				"quantity": 4
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			},
+			"A": {
+				"type": "block",
+				"code": "game:woodenaxle-ud"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:woodentoggle-ns",
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "HCX,PAS,R_F",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 20
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 10
+			},
+			"X": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true,
+				"toolDurabilityCost": 15
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 4
+			},
+			"A": {
+				"type": "block",
+				"code": "game:log-placed-*-ud"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 1
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:clutch-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "HCX,PAS,R_F",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 20
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 10
+			},
+			"X": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true,
+				"toolDurabilityCost": 15
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 4
+			},
+			"A": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 1
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:clutch-north",
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "HCX,GPG,R_F",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 20
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 10
+			},
+			"X": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true,
+				"toolDurabilityCost": 15
+			},
+			"G": {
+				"type": "block",
+				"code": "game:angledgears-s"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"name": "wood",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 1
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:transmission-ns",
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "PXP,RSF",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"X": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-placed-*-ud",
+				"name": "wood"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:angledgears-s",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "PXP,RSF",
+		"requiresTrait": "tinkerer",
+		"ingredients": {
+			"X": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud",
+				"name": "wood"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "block",
+			"code": "game:angledgears-s",
+			"quantity": 2
+		}
+	}
+]

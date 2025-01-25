@@ -1,0 +1,127 @@
+[
+
+
+    {
+        "file": "millwright:recipes/grid/sails",
+        "op": "add",
+        "path": "/-",
+        "side": "server",
+        "value": {
+            "ingredientPattern": "HLS,LSL,SL_",
+            "requiresTrait": "sailwright",
+            "ingredients": {
+                "H": {
+                    "type": "item",
+                    "code": "game:hammer-*",
+                    "isTool": true
+                },
+                "S": {
+                    "type": "item",
+                    "code": "game:stick",
+                    "quantity": 8
+                },
+                "L": {
+                    "type": "block",
+                    "code": "game:linen-*",
+                    "quantity": 4
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "recipeGroup": 2,
+            "output": {
+                "type": "item",
+                "code": "millwright:sailcentered",
+                "quantity": 12
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "millwright"
+            }
+        ]
+    },
+
+
+    {
+        "file": "millwright:recipes/grid/sails",
+        "op": "add",
+        "path": "/-",
+        "side": "server",
+        "value": {
+            "ingredientPattern": "SLH,LSL,_LS",
+            "requiresTrait": "sailwright",
+            "ingredients": {
+                "H": {
+                    "type": "item",
+                    "code": "game:hammer-*",
+                    "isTool": true
+                },
+                "S": {
+                    "type": "item",
+                    "code": "game:stick",
+                    "quantity": 4
+                },
+                "L": {
+                    "type": "block",
+                    "code": "game:linen-*",
+                    "quantity": 4
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "recipeGroup": 2,
+            "output": {
+                "type": "item",
+                "code": "millwright:sailangled",
+                "quantity": 12
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "millwright"
+            }
+        ]
+    },
+
+    {
+        "file": "millwright:recipes/grid/sails",
+        "op": "add",
+        "path": "/-",
+        "side": "server",
+        "value": {
+            "ingredientPattern": "SLH,_SL,__S",
+            "requiresTrait": "sailwright",
+            "ingredients": {
+                "H": {
+                    "type": "item",
+                    "code": "game:hammer-*",
+                    "isTool": true
+                },
+                "S": {
+                    "type": "item",
+                    "code": "game:stick",
+                    "quantity": 8
+                },
+                "L": {
+                    "type": "block",
+                    "code": "game:linen-*",
+                    "quantity": 8
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "recipeGroup": 2,
+            "output": {
+                "type": "item",
+                "code": "millwright:sailwide",
+                "quantity": 12
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "millwright"
+            }
+        ]
+    }
+]

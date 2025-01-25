@@ -8,33 +8,35 @@
             "traits": [
                 "miner",
                 "prospector",
+                "mason",
+                "tough",
                 "myopic",
                 "heavyhanded"
             ],
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-great-steppe-shirt"
+                    "code": "clothes-upperbody-miner"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbodyover-clockmaker-tunic"
+                    "code": "clothes-shoulder-clockmaker-apron"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-workmans-gown"
+                    "code": "clothes-nadiya-lowerbody-miner-clean"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-worn-leather-boots"
+                    "code": "clothes-nadiya-foot-miner"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-hand-hunter-gloves"
+                    "code": "clothes-face-hunter-mask"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-blackguard-belt"
+                    "code": "clothes-nadiya-waist-miner"
                 }
             ]
         }
@@ -47,10 +49,10 @@
             "code": "farmer",
             "traits": [
                 "farmer",
-                "greenthumb",
-                "fleetfooted",
+                "greenfingered",
+                "animalfriend",
+                "strongshoulders",
                 "nervous",
-                "nearsighted",
                 "claustrophobic"
             ],
             "gear": [
@@ -60,27 +62,31 @@
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-commoner-shirt"
+                    "code": "clothes-nadiya-face-grain"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbodyover-clockmaker-tunic"
+                    "code": "clothes-upperbody-clockmaker-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-workmans-gown"
+                    "code": "clothes-shoulder-jord-robe"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-worn-leather-boots"
+                    "code": "clothes-nadiya-lowerbody-shepherd"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-hand-heavy-leather-gloves"
+                    "code": "clothes-foot-forlorn-shoes"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-linen-rope"
+                    "code": "clothes-nadiya-hand-blacksmith"
+                },
+                {
+                    "type": "item",
+                    "code": "clothes-nadiya-waist-shepherd"
                 }
             ]
         }
@@ -95,17 +101,18 @@
                 "lumberjack",
                 "forester",
                 "burner",
+                "woodsman",
                 "kind",
                 "heavyhanded"
             ],
             "gear": [
                 {
                     "type": "item",
-                    "code": "divisionoflabor:clothes-upperbody-lumberjack-shirt"
+                    "code": "theworkingclasses:clothes-upperbody-lumberjack-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-commoner-trousers"
+                    "code": "theworkingclasses:clothes-lowerbody-lumberjack-pants-fancy"
                 },
                 {
                     "type": "item",
@@ -117,7 +124,7 @@
                 },
                 {
                     "type": "item",
-                    "code": "clothes-hand-hunter-gloves"
+                    "code": "clothes-nadiya-arm-guard-bracers"
                 },
                 {
                     "type": "item",
@@ -134,9 +141,11 @@
             "code": "blacksmith",
             "traits": [
                 "smith",
+                "cokefurnacemaster",
+                "mender",
+                "strongarms",
                 "nearsighted",
-                "heavyhanded",
-                "loud"
+                "heavyhanded"
             ],
             "gear": [
                 {
@@ -145,23 +154,23 @@
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbodyover-clockmaker-tunic"
+                    "code": "clothes-upperbody-temptress-velvet-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-raw-hide-trousers"
+                    "code": "clothes-lowerbody-blackguard-leggings"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-soldier-boots"
+                    "code": "clothes-nadiya-foot-blacksmith"
+                },
+                {
+                    "type": "item",
+                    "code": "theworkingclasses:clothes-face-welding-mask"
                 },
                 {
                     "type": "item",
                     "code": "clothes-hand-heavy-leather-gloves"
-                },
-                {
-                    "type": "item",
-                    "code": "clothes-waist-sturdy-leather-belt"
                 }
             ]
         }
@@ -173,26 +182,25 @@
         "value": {
             "code": "cook",
             "traits": [
-                "cook",
-                "nearsighted",
-                "nervous"
+                "knifeexpert",
+                "firestarter",
+                "practicedbutcher",
+                "inventiveinthekitchen",
+                "refinedtaste",
+                "nearsighted"
             ],
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-commoner-shirt"
+                    "code": "clothes-upperbody-linen-tunic"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbodyover-commoner-coat"
+                    "code": "clothes-lowerbody-homespun-pants"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-commoner-trousers"
-                },
-                {
-                    "type": "item",
-                    "code": "clothes-foot-commoner-boots"
+                    "code": "clothes-foot-soldier-boots"
                 },
                 {
                     "type": "item",
@@ -204,7 +212,7 @@
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-peasant-strap"
+                    "code": "clothes-nadiya-waist-peasant1"
                 }
             ]
         }
@@ -216,6 +224,10 @@
         "value": {
             "code": "alchemist",
             "traits": [
+                "forager",
+                "carefultouch",
+                "philosopher",
+                "temporallyaware",
                 "weak",
                 "nearsighted"
             ],
@@ -226,35 +238,34 @@
                 },
                 {
                     "type": "item",
+                    "code": "clothes-face-tailor-mask"
+                },
+                {
+                    "type": "item",
                     "code": "clothes-shoulder-alchemist"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-alchemist"
+                    "code": "clothes-upperbody-azure-embroidered-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbodyover-alchemist"
+                    "code": "clothes-hand-malefactor-gloves"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-alchemist"
+                    "code": "clothes-nadiya-waist-alchemist"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-alchemist"
+                    "code": "clothes-lowerbody-commoner-trousers"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-alchemist"
+                    "code": "clothes-foot-blackguard-shoes"
                 }
             ]
-        },
-        "dependsOn": [
-            {
-                "modid": "alchemy"
-            }
-        ]
+        }
     },
     {
         "file": "config/characterclasses.json",
@@ -264,21 +275,20 @@
             "code": "squire",
             "traits": [
                 "fleetfooted",
+                "healthy",
                 "forager",
+                "versatile",
+                "hungry",
                 "claustrophobic"
             ],
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-head-squire-hood"
+                    "code": "clothes-arm-leather-bracers"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-arm-squire-bracers"
-                },
-                {
-                    "type": "item",
-                    "code": "clothes-emblem-squire-emblem"
+                    "code": "clothes-hand-forlorn-bracer"
                 },
                 {
                     "type": "item",
@@ -286,7 +296,7 @@
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-squire-shirt"
+                    "code": "clothes-upperbody-marketeer"
                 },
                 {
                     "type": "item",
@@ -294,11 +304,11 @@
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-squire-pants"
+                    "code": "clothes-lowerbody-aristocrat-leggings"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-squire-boots"
+                    "code": "clothes-foot-worn-leather-boots"
                 }
             ]
         }
@@ -310,40 +320,37 @@
         "value": {
             "code": "potter",
             "traits": [
-                "mason"
+                "potter",
+                "digger",
+                "artisan",
+                "strongarms",
+                "civil",
+                "kind"
             ],
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-head-squire-hood"
+                    "code": "clothes-shoulder-woolen-scarf"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-arm-squire-bracers"
+                    "code": "clothes-upperbody-hunters-green"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-emblem-squire-emblem"
+                    "code": "clothes-nadiya-upperbodyover-coat-short"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-squire-tunic"
+                    "code": "clothes-nadiya-waist-peasant1"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-squire-shirt"
+                    "code": "clothes-lowerbody-pastoral-pants"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-squire-belt"
-                },
-                {
-                    "type": "item",
-                    "code": "clothes-lowerbody-squire-pants"
-                },
-                {
-                    "type": "item",
-                    "code": "clothes-foot-squire-boots"
+                    "code": "clothes-nadiya-foot-peasantbrown"
                 }
             ]
         }
@@ -355,39 +362,41 @@
         "value": {
             "code": "carpenter",
             "traits": [
+                "carpenter",
+                "fitter",
+                "millwright",
+                "strongarms",
+                "civil",
+                "hungry"
             ],
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-head-squire-hood"
+                    "code": "clothes-face-leather-reinforced-mask"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-arm-squire-bracers"
+                    "code": "clothes-hand-commoner-gloves"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-emblem-squire-emblem"
+                    "code": "clothes-nadiya-upperbodyover-coat-short"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-squire-tunic"
+                    "code": "clothes-upperbody-woolen-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-squire-shirt"
+                    "code": "clothes-waist-sturdy-belt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-squire-belt"
+                    "code": "clothes-lowerbody-pastoral-pants"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-squire-pants"
-                },
-                {
-                    "type": "item",
-                    "code": "clothes-foot-squire-boots"
+                    "code": "clothes-foot-forlorn-shoes"
                 }
             ]
         }
@@ -399,42 +408,41 @@
         "value": {
             "code": "healer",
             "traits": [
+                "healthy",
                 "fleetfooted",
+                "forager",
+                "hedgewitch",
                 "kind",
                 "claustrophobic"
             ],
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-head-squire-hood"
+                    "code": "clothes-face-hunter-mask"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-arm-squire-bracers"
+                    "code": "clothes-nadiya-arm-barber-pouch"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-emblem-squire-emblem"
+                    "code": "clothes-shoulder-hooded-cape"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-squire-tunic"
+                    "code": "clothes-nadiya-upperbody-beekeeper"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-squire-shirt"
+                    "code": "clothes-waist-alchemist"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-squire-belt"
+                    "code": "clothes-lowerbody-marketeer"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-squire-pants"
-                },
-                {
-                    "type": "item",
-                    "code": "clothes-foot-squire-boots"
+                    "code": "clothes-nadiya-foot-guard"
                 }
             ]
         }
