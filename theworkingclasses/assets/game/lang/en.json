@@ -101,8 +101,8 @@
 	"traitdesc-woodsman": "Can produce more firewood when chopping logs, and can make sticks from firewood.",
 	"traitdesc-hedgewitch": "Has access to recipies for <a href=\"handbooksearch://clean bandage or poultice\">healing items</a>.",
 	"traitdesc-carefultouch": "A gentle touch means less broken work when making glass flasks. (Only useful if you are using the alchemy mod).",
-	"traitdesc-philosopher": "A skilled Alchemist can make a <a href=\"handbooksearch://Philospher's Stone\">philospher's stone</a> and transmute mundane items into valuable ones'.",
-	"traitdesc-temporallyaware": "Can turn a rusty gear into a temporal gear with the aid of a philosphers stone and the correct reagents.",
+	"traitdesc-philosopher": "A skilled Alchemist can make a <a href=\"handbooksearch://Philosopher's Stone\">philosopher's stone</a> and transmute mundane items into valuable ones'.",
+	"traitdesc-temporallyaware": "Can turn a rusty gear into a temporal gear with the aid of a philosophers stone and the correct reagents.",
 	"traitdesc-professor": "A good teacher can teach almost anyone almost anything. A professor can produce skill books to teach skill traits to other players.",
 
 	"characterclass-miner": "Miner",

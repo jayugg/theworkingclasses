@@ -53,7 +53,8 @@
 			},
 			"B": {
 				"type": "item",
-				"code": "game:metalplate-brass"
+				"code": "theworkingclasses:individuallamellar-brass",
+				"quantity": 2
 			},
 			"Q": {
 				"type": "item",
@@ -70,9 +71,173 @@
 		},
 		"width": 3,
 		"height": 2,
+		"recipeGroup": 8,
 		"output": {
 			"type": "item",
 			"code": "game:metalbit-gold"
+		}
+	},
+	{
+		"ingredientPattern": "QSB,TIT",
+		"requiresTrait": "philosopher",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "theworkingclasses:philosophersstone-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"B": {
+				"type": "item",
+				"code": "theworkingclasses:individuallamellar-brass",
+				"quantity": 2
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:smokyquartz"
+			},
+			"T": {
+				"type": "item",
+				"code": "game:gear-temporal"
+			},
+			"I": {
+				"type": "item",
+				"code": "game:metalbit-zinc"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 8,
+		"output": {
+			"type": "item",
+			"code": "game:metalbit-silver"
+		}
+	},
+	{
+		"ingredientPattern": "L",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "theworkingclasses:individuallamellar-*",
+				"allowedVariants": [
+					"bismuth",
+					"bismuthbronze",
+					"blackbronze",
+					"brass",
+					"chromium",
+					"copper",
+					"gold",
+					"iron",
+					"meteoriciron",
+					"lead",
+					"molybdochalkos",
+					"platinum",
+					"silver",
+					"stainlesssteel",
+					"steel",
+					"tin",
+					"tinbronze",
+					"titanium",
+					"uranium",
+					"zinc"
+				],
+				"name": "metal",
+				"quantity": 9
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"recipeGroup": 7,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:metallamellae-{metal}"
+		}
+	},
+	{
+		"ingredientPattern": "L",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:metallamellae-*",
+				"allowedVariants": [
+					"bismuth",
+					"bismuthbronze",
+					"blackbronze",
+					"brass",
+					"chromium",
+					"copper",
+					"gold",
+					"iron",
+					"meteoriciron",
+					"lead",
+					"molybdochalkos",
+					"platinum",
+					"silver",
+					"stainlesssteel",
+					"steel",
+					"tin",
+					"tinbronze",
+					"titanium",
+					"uranium",
+					"zinc"
+				],
+				"name": "metal"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "theworkingclasses:individuallamellar-{metal}",
+			"quantity": 9
+		}
+	},
+	{
+		"ingredientPattern": "C,I",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"I": {
+				"type": "item",
+				"code": "theworkingclasses:individuallamellar-*",
+				"allowedVariants": [
+					"bismuth",
+					"bismuthbronze",
+					"blackbronze",
+					"brass",
+					"chromium",
+					"copper",
+					"gold",
+					"iron",
+					"meteoriciron",
+					"lead",
+					"molybdochalkos",
+					"platinum",
+					"silver",
+					"stainlesssteel",
+					"steel",
+					"tin",
+					"tinbronze",
+					"titanium",
+					"uranium",
+					"zinc"
+				],
+				"name": "metal"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 7,
+		"output": {
+			"type": "item",
+			"code": "game:metalbit-{metal}",
+			"quantity": 2
 		}
 	},
 	{
@@ -104,32 +269,32 @@
 		}
 	},
 	{
-			"ingredientPattern": "_S_,RIR",
-			"requiresTrait": "philosopher",
-			"ingredients": {
-				"S": {
-					"type": "item",
-					"code": "theworkingclasses:philosophersstone-*",
-					"isTool": true,
-					"toolDurabilityCost": 0
-				},
-				"I": {
-					"type": "item",
-					"code": "game:ore-quartz",
-					"quantity": 1
-				},
-				"R": {
-					"type": "item",
-					"code": "game:stone-chert"
-				}
-			},
-			"width": 3,
-			"height": 2,
-			"recipeGroup": 2,
-			"output": {
+		"ingredientPattern": "_S_,RIR",
+		"requiresTrait": "philosopher",
+		"ingredients": {
+			"S": {
 				"type": "item",
-				"code": "game:rosequartz"
+				"code": "theworkingclasses:philosophersstone-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ore-quartz",
+				"quantity": 1
+			},
+			"R": {
+				"type": "item",
+				"code": "game:stone-chert"
 			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:rosequartz"
+		}
 	}
 
 ]

@@ -1,6 +1,5 @@
 [
 
-
     {
         "file": "millwright:recipes/grid/sails",
         "op": "add",
@@ -41,8 +40,17 @@
             }
         ]
     },
-
-
+    {
+        "op": "replace",
+        "path": "/3/output",
+        "value": {
+            "type": "block",
+            "code": "game:linen-normal-down",
+            "quantity": 1
+        },
+        "file": "millwright:recipes/grid/sails.json",
+        "dependsOn": [ { "modid": "millwright" } ]
+    },
     {
         "file": "millwright:recipes/grid/sails",
         "op": "add",
@@ -83,7 +91,17 @@
             }
         ]
     },
-
+    {
+        "op": "replace",
+        "path": "/4/output",
+        "value": {
+            "type": "block",
+            "code": "game:linen-normal-down",
+            "quantity": 1
+        },
+        "file": "millwright:recipes/grid/sails.json",
+        "dependsOn": [ { "modid": "millwright" } ]
+    },
     {
         "file": "millwright:recipes/grid/sails",
         "op": "add",
@@ -123,5 +141,35 @@
                 "modid": "millwright"
             }
         ]
+    },
+    {
+        "op": "replace",
+        "path": "/5/output",
+        "value": {
+            "type": "block",
+            "code": "game:linen-normal-down",
+            "quantity": 1
+        },
+        "file": "millwright:recipes/grid/sails.json",
+        "dependsOn": [ { "modid": "millwright" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/6/ingredients",
+        "value": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "item",
+                "code": "game:sail",
+                "quantity": 2
+            }
+        },
+        "file": "millwright:recipes/grid/sails.json",
+        "dependsOn": [ { "modid": "millwright" } ]
+        
     }
 ]
