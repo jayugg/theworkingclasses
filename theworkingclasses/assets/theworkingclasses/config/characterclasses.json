@@ -1,0 +1,129 @@
+[
+  {
+    "code": "miner",
+    "traits": ["miner", "prospector", "mason", "tough", "myopic", "heavyhanded"],
+    "gear": [
+      { "type": "item", "code": "game:clothes-upperbody-miner" },
+      { "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
+      { "type": "item", "code": "game:clothes-nadiya-lowerbody-miner-clean" },
+      { "type": "item", "code": "game:clothes-nadiya-foot-miner" },
+      { "type": "item", "code": "game:clothes-face-hunter-mask" },
+      { "type": "item", "code": "game:clothes-nadiya-waist-miner" }
+    ]
+  },
+  {
+    "code": "farmer",
+    "traits": ["farmer", "greenfingered", "animalfriend", "strongshoulders", "nervous", "claustrophobic"],
+    "gear": [
+      { "type": "item", "code": "game:clothes-head-straw-hat" },
+      { "type": "item", "code": "game:clothes-nadiya-face-grain" },
+      { "type": "item", "code": "game:clothes-upperbody-clockmaker-shirt" },
+      { "type": "item", "code": "game:clothes-shoulder-jord-robe" },
+      { "type": "item", "code": "game:clothes-nadiya-lowerbody-shepherd" },
+      { "type": "item", "code": "game:clothes-foot-forlorn-shoes" },
+      { "type": "item", "code": "game:clothes-nadiya-hand-blacksmith" },
+      { "type": "item", "code": "game:clothes-nadiya-waist-shepherd" }
+    ]
+  },
+  {
+    "code": "lumberjack",
+    "traits": ["lumberjack", "forester", "burner", "woodsman", "kind", "heavyhanded"],
+    "gear": [
+      { "type": "item", "code": "theworkingclasses:clothes-upperbody-lumberjack-shirt" },
+      { "type": "item", "code": "theworkingclasses:clothes-lowerbody-lumberjack-pants-fancy" },
+      { "type": "item", "code": "game:clothes-foot-metalcap-boots" },
+      { "type": "item", "code": "game:clothes-neck-acorn-amulet" },
+      { "type": "item", "code": "game:clothes-nadiya-arm-guard-bracers" },
+      { "type": "item", "code": "game:clothes-waist-peasant-strap" }
+    ]
+  },
+  {
+    "code": "blacksmith",
+    "traits": ["smith", "cokefurnacemaster", "mender", "strongarms", "nearsighted", "heavyhanded"],
+    "gear": [
+      { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
+      { "type": "item", "code": "game:clothes-upperbody-temptress-velvet-shirt" },
+      { "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" },
+      { "type": "item", "code": "game:clothes-nadiya-foot-blacksmith" },
+      { "type": "item", "code": "theworkingclasses:clothes-face-welding-mask" },
+      { "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" }
+    ]
+  },
+  {
+    "code": "cook",
+    "traits": ["knifeexpert", "firestarter", "practicedbutcher", "inventiveinthekitchen", "refinedtaste", "nearsighted"],
+    "gear": [
+      { "type": "item", "code": "game:clothes-upperbody-linen-tunic" },
+      { "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
+      { "type": "item", "code": "game:clothes-foot-soldier-boots" },
+      { "type": "item", "code": "game:clothes-hand-commoner-gloves" },
+      { "type": "item", "code": "game:clothes-upperbodyover-surgeon" },
+      { "type": "item", "code": "game:clothes-nadiya-waist-peasant1" }
+    ]
+  },
+  {
+    "code": "alchemist",
+    "traits": ["forager", "carefultouch", "philosopher", "temporallyaware", "weak", "nearsighted"],
+    "gear": [
+      { "type": "item", "code": "game:clothes-head-alchemist" },
+      { "type": "item", "code": "game:clothes-face-tailor-mask" },
+      { "type": "item", "code": "game:clothes-shoulder-alchemist" },
+      { "type": "item", "code": "game:clothes-upperbody-azure-embroidered-shirt" },
+      { "type": "item", "code": "game:clothes-hand-malefactor-gloves" },
+      { "type": "item", "code": "game:clothes-nadiya-waist-alchemist" },
+      { "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+      { "type": "item", "code": "game:clothes-foot-blackguard-shoes" }
+    ]
+  },
+  {
+    "code": "squire",
+    "traits": ["fleetfooted", "healthy", "forager", "versatile", "hungry", "claustrophobic"],
+    "gear": [
+      { "type": "item", "code": "game:clothes-arm-leather-bracers" },
+      { "type": "item", "code": "game:clothes-hand-forlorn-bracer" },
+      { "type": "item", "code": "game:clothes-shoulder-squire-tunic" },
+      { "type": "item", "code": "game:clothes-upperbody-marketeer" },
+      { "type": "item", "code": "game:clothes-waist-squire-belt" },
+      { "type": "item", "code": "game:clothes-lowerbody-aristocrat-leggings" },
+      { "type": "item", "code": "game:clothes-foot-worn-leather-boots" }
+    ]
+  },
+  {
+    "code": "potter",
+    "traits": ["potter", "digger", "artisan", "strongarms", "civil", "kind"],
+    "gear": [
+      { "type": "item", "code": "game:clothes-shoulder-woolen-scarf" },
+      { "type": "item", "code": "game:clothes-upperbody-hunters-green" },
+      { "type": "item", "code": "game:clothes-nadiya-upperbodyover-coat-short" },
+      { "type": "item", "code": "game:clothes-nadiya-waist-peasant1" },
+      { "type": "item", "code": "game:clothes-lowerbody-pastoral-pants" },
+      { "type": "item", "code": "game:clothes-nadiya-foot-peasantbrown" }
+    ]
+  },
+  {
+    "code": "carpenter",
+    "traits": ["carpenter", "fitter", "millwright", "strongarms", "civil", "hungry"],
+    "gear": [
+      { "type": "item", "code": "game:clothes-face-leather-reinforced-mask" },
+      { "type": "item", "code": "game:clothes-hand-commoner-gloves" },
+      { "type": "item", "code": "game:clothes-nadiya-upperbodyover-coat-short" },
+      { "type": "item", "code": "game:clothes-upperbody-woolen-shirt" },
+      { "type": "item", "code": "game:clothes-waist-sturdy-belt" },
+      { "type": "item", "code": "game:clothes-lowerbody-pastoral-pants" },
+      { "type": "item", "code": "game:clothes-foot-forlorn-shoes" }
+    ]
+  },
+  {
+    "code": "healer",
+    "traits": ["healthy", "fleetfooted", "forager", "hedgewitch", "kind", "claustrophobic"],
+    "gear": [
+      { "type": "item", "code": "game:clothes-face-hunter-mask" },
+      { "type": "item", "code": "game:clothes-nadiya-arm-barber-pouch" },
+      { "type": "item", "code": "game:clothes-shoulder-hooded-cape" },
+      { "type": "item", "code": "game:clothes-nadiya-upperbody-beekeeper" },
+      { "type": "item", "code": "game:clothes-waist-alchemist" },
+      { "type": "item", "code": "game:clothes-lowerbody-marketeer" },
+      { "type": "item", "code": "game:clothes-nadiya-foot-guard" }
+    ]
+  }
+]

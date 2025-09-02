@@ -69,7 +69,7 @@
         },
         "*-carpenter": {
             "traitdata": {
-                "add": [ "carpenter", "millwright" ],
+                "add": [ "carpenter", "millwright", "fitter" ],
                 "remove": [ "prospector", "mason", "greenfingered", "woodsman", "cokefurnacemaster", "smith", "firestarter", "inventiveinthekitchen", "philosopher", "temporallyaware", "carefultouch", "potter", "artisan", "hedgewitch", "bowyer", "clothier", "sailwright", "merciless", "tinkerer", "technical" ]
             }
         },
