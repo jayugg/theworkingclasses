@@ -41,7 +41,7 @@
 			},
 			"B": {
 				"type": "block",
-				"code": "game:bowl-fired"
+				"code": "game:bowl-*-fired"
 			}
 		},
 		"attributes": {
@@ -126,7 +126,7 @@
 			},
 			"B": {
 				"type": "block",
-				"code": "game:bowl-fired"
+				"code": "game:bowl-*-fired"
 			}
 		},
 		"attributes": {
@@ -187,7 +187,7 @@
 			},
 			"B": {
 				"type": "block",
-				"code": "game:bowl-fired"
+				"code": "game:bowl-*-fired"
 			}
 		},
 		"attributes": {

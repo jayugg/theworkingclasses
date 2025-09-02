@@ -1,0 +1,248 @@
+[
+  {
+    "code": "miner",
+    "type": "positive",
+    "attributes": {
+      "oreDropRate": 0.25,
+      "miningSpeedMul": 0.5
+    }
+  },
+  {
+    "code": "digger",
+    "type": "positive",
+    "attributes": {
+      "miningSpeedMul": 0.3
+    }
+  },
+  {
+    "code": "wallbuilder",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "stonecunning",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "prospector",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "tough",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 2,
+      "meleeWeaponsDamage": 0.15
+    }
+  },
+  {
+    "code": "myopic",
+    "type": "negative",
+    "attributes": {
+      "rangedWeaponsDamage": -0.2,
+      "rangedWeaponsAcc": -0.3,
+      "bowDrawingStrength": -0.2
+    }
+  },
+  {
+    "code": "farmer",
+    "type": "positive",
+    "attributes": {
+      "produceDropRate": 0.3
+    }
+  },
+  {
+    "code": "strongshoulders",
+    "type": "positive",
+    "attributes": {
+      "rangedWeaponsDamage": 0.2,
+      "bowDrawingStrength": 0.2
+    }
+  },
+  {
+    "code": "greenfingered",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "resilient",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 3
+    }
+  },
+  {
+    "code": "healthy",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 2
+    }
+  },
+  {
+    "code": "versatile",
+    "type": "positive",
+    "attributes": {
+      "meleeWeaponsDamage": 0.15,
+      "rangedWeaponsDamage": 0.2
+    }
+  },
+  {
+    "code": "hedgewitch",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "lumberjack",
+    "type": "positive",
+    "attributes": {
+      "woodDropRate": 0.1,
+      "stickDropRate": 0.3,
+      "meleeWeaponsDamage": 0.15
+    }
+  },
+  {
+    "code": "woodsman",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "forester",
+    "type": "positive",
+    "attributes": {
+      "fruittreeDropRate": 1,
+      "treeseedDropRate": 2
+    }
+  },
+  {
+    "code": "carpenter",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "fitter",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "millwright",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "sailwright",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "burner",
+    "type": "positive",
+    "attributes": {
+      "charcoalPileDropRate": 0.35
+    }
+  },
+  {
+    "code": "mason",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "potter",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "artisan",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "smith",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "cokefurnacemaster",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "strongarms",
+    "type": "positive",
+    "attributes": {
+      "meleeWeaponsDamage": 0.15
+    }
+  },
+  {
+    "code": "carefultouch",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "philosopher",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "temporallyaware",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "knifeexpert",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "firestarter",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "practicedbutcher",
+    "type": "positive",
+    "attributes": {
+      "animalSeekingRange": -0.2,
+      "meleeWeaponsDamage": 0.15
+    }
+  },
+  {
+    "code": "inventiveinthekitchen",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "animalfriend",
+    "type": "positive",
+    "attributes": {
+      "animalSeekingRange": -0.2
+    }
+  },
+  {
+    "code": "refinedtaste",
+    "type": "negative",
+    "attributes": {
+      "hungerrate": 0.1
+    }
+  },
+  {
+    "code": "hungry",
+    "type": "negative",
+    "attributes": {
+      "hungerrate": 0.1
+    }
+  },
+  {
+    "code": "loud",
+    "type": "negative",
+    "attributes": {
+      "animalSeekingRange": 0.2
+    }
+  },
+  {
+    "code": "professor",
+    "type": "positive",
+    "attributes": {}
+  }
+]
